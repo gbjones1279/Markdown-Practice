@@ -1,5 +1,4 @@
-# **Reflections on Markdown**
-#### By Gavin Jones
+# **Reflections on Markdown** #### By Gavin Jones
 1. *To indicate document structure, Markdown uses ASCII punctuation characters. A steam-oriented, hierarchical document model implies when the format is able to handle things like paragraphs, headers, lists, links, emphasis, and code, but struggles with things like tables, footnotes, and metadata. Formal specification allows anyone to write Markdown without having to learn a complete syntax. However, it can also leave many edge cases undefined.*
 2. *The consequences of using regular expressions rather than a formal grammar is that it can cause inconsistent behavior across implementations. It can also cause performance vulnerabilities. Prioritizing the human reader of the source file helps it relate to the parsing ambiguities that later motivated CommonMark.*
 3. Gruber explicitly borrowed conventions from email (blockquotes with >), Usenet (emphasis with *), and earlier plain text formats (Setext headers). What does this genealogy reveal about the communities whose practices became infrastructural?
